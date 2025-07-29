@@ -113,10 +113,10 @@ I admit that connecting these individual `Class`es, `Model`s, and `BaseTool` con
 
 ## Future Enhancements
 
-  * **Richer Skill Graph:** Expand skill classifications, incorporate more granular industry tools and models.
-  * **Dynamic Skill Learning:** Explore ways for the LLM, with few-shot examples, to automatically extract and learn new skill keywords from JDs without manual graph updates.
-  * **More Agent Collaboration:** Introduce additional specialized agents, such as "Cultural Fit Assessment" or "Compensation Expectation Analysis" agents.
-  * **User Interface:** Develop a simple web interface for easy input and result viewing.
-  * **Error Handling and Robustness:** Enhance the system's ability to handle unexpected LLM output formats.
+* **Richer Skill Graph:** Expand skill classifications, incorporate more granular industry tools and models.
+* **Dynamic Skill Learning:** Explore ways for the LLM, with few-shot examples, to automatically extract and learn new skill keywords from JDs without manual graph updates.
+* **Talent Mapper Agent:** Introduce a specialized agent focused on **talent mapping for passive / low volume but high-stake candidates**. This agent could leverage public data, networking insights, and market trends to proactively identify and engage top-tier talent, offering a strategic advantage beyond reactive application screening.
+* **User Interface:** Develop a simple web interface, perhaps using Streamlit or Gradio, for easier input and result viewing.
+* **Error Handling and Robustness:** Enhance the system's ability to handle unexpected LLM output formats and edge cases.
 
 -----
